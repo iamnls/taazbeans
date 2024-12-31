@@ -1,0 +1,49 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #6f4c3e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #6f4c3e;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #6f4c3e;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Add this to your App.css or Menu.css file */
+@import '~react-owl-carousel/dist/assets/owl.carousel.css';
+@import '~react-owl-carousel/dist/assets/owl.theme.default.css';
